@@ -72,10 +72,12 @@ for (let zucchina in zucchine) {
 
     console.log('Nome zucchina', zucchina)
     console.log(`varieta':`, zucchine[zucchina].varieta)
+    console.log(`PESO PRECED. = %c` + pesoTot, 'color: lightgreen')
+
     console.log(`Peso:`, zucchine[zucchina].peso)
     pesoTot += zucchine[zucchina].peso
+    console.log(`PESO TOTALE = %c` + pesoTot, 'color: red')
     console.log(`Lunghezza:`, zucchine[zucchina].lunghezza)
-    console.log(`PESO TOTALE = `, pesoTot)
     
     console.log('______________')
 }
